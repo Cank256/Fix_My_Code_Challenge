@@ -10,6 +10,11 @@ class User():
         """ Documentation """
         self.__email = None
 
+    @property
+    def email(self):
+        """ Documentation """
+        return self.__email
+
     @email.setter
     def email(self, value):
         """ Documentation """
