@@ -8,7 +8,7 @@ class Square():
         height (int): The height of the square.
     """
 
-    def __init__(self, width=0, height=0):
+    def __init__(self, width, height):
         """Initializes a new instance of the Square class.
 
         Args:
